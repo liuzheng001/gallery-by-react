@@ -14,6 +14,7 @@ module.exports = {
   port: defaultSettings.port,
   debug: true,
   devtool: 'eval',
+  // devtool: 'source-map',
   output: {
     path: path.join(__dirname, '/../dist/assets'),
     filename: 'app.js',
